@@ -163,7 +163,6 @@ header{
 }
 
 .social-media{
-    background-color: rgba(255, 0, 0, .5);
     position: absolute;
     bottom: 2rem;
     width: 100%;
@@ -172,11 +171,18 @@ header{
 }
 
 .social-media i{
-    color: rgba(255, 255, 255, 0.5);
+    background-color: #6a3093;
+    color: rgba(255, 255, 255, 1);
     height: 2.5rem;
     width: 2.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
+    transition: background-color 1s;
+}
+
+.social-media i:hover{
+    background-color: #a044ff;
 }
